@@ -71,9 +71,9 @@ WSGI_APPLICATION = 'ijarabor.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'uybor',
+        'NAME': 'dbname',
         'USER': 'postgres',
-        'PASSWORD': 'Mili1996',
+        'PASSWORD': 'password',
         'HOST': 'localhost'
     }
 }
@@ -138,8 +138,8 @@ MESSAGE_TAGS = {
 # Email config
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'josephkhan0595@gmail.com'
-EMAIL_HOST_PASSWORD = 'Mili1996'
+EMAIL_HOST_USER = 'email'
+EMAIL_HOST_PASSWORD = 'pass'
 EMAIL_USE_TLS = True
 
 try:
